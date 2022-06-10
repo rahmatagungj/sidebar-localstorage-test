@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const newShow = setShowSidebar(savedSidebar ? savedSidebar : false)
   isShowingSidebar = newShow
+
+  document.body.style = ""
 });
 
 buttonToggleSidebar.addEventListener("click", () => {
