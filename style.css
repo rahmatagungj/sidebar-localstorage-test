@@ -1,0 +1,40 @@
+body {
+  background-color: aliceblue;
+  overflow: hidden;
+  padding: 100px 200px;
+}
+
+.sidebar {
+  background-color: white;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  transition: right 0.5s ease-in-out;
+}
+
+.sidebar.show {
+  right: -310px;
+}
+
+.content {
+  margin: 10px;
+}
+
+#btn-toggle-sidebar {
+  position: absolute;
+  left: -90px;
+  top: 50%;
+  transform: rotate(90deg);
+}
+
+
+.btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #2d3e50;
+  border: none;
+  border-radius: 2px;
+  padding: 12px 10px;
+}
